@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f2b3e3-8855-44ea-b26f-f3a5aec11645" name="Changes" comment="Amended File Structure">
-      <change afterPath="$PROJECT_DIR$/bst-frontend/src/hooks/useFetchData.ja" afterDir="false" />
-    </list>
+    <list default="true" id="03f2b3e3-8855-44ea-b26f-f3a5aec11645" name="Changes" comment="Amend File Structure + Add .jsz file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +72,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733086422654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Amend File Structure + Add .jsz file">
+      <option name="closed" value="true" />
+      <created>1733087216287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733087216287</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated .jsx files" />
     <MESSAGE value="Amended File Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Amended File Structure" />
+    <MESSAGE value="Amend File Structure + Add .jsz file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amend File Structure + Add .jsz file" />
   </component>
 </project>
