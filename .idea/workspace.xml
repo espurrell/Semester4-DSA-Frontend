@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="03f2b3e3-8855-44ea-b26f-f3a5aec11645" name="Changes" comment="Add App.js and App.css files -debugging required for visuals and function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bst-frontend/src/App.text.js" beforeDir="false" afterPath="$PROJECT_DIR$/bst-frontend/src/App.text.js" afterDir="false" />
     </list>
+=======
+    <list default="true" id="03f2b3e3-8855-44ea-b26f-f3a5aec11645" name="Changes" comment="Add App.js and App.css files -debugging required for visuals and function" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +44,15 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+<<<<<<< Updated upstream
     "git-widget-placeholder": "#4 on App-Files",
+=======
+<<<<<<< HEAD
+    "git-widget-placeholder": "main",
+=======
+    "git-widget-placeholder": "App-Files",
+>>>>>>> bb8c0a6f9b4767c82656982ea2d8a9f9657fd21c
+>>>>>>> Stashed changes
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
