@@ -1,28 +1,28 @@
 // src/components/EnterNumbers.jsx
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import axiosInstance from '../api/axiosInstance';
-import NavBar from './NavBar';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import axiosInstance from "../api/axiosInstance";
+import NavBar from "./NavBar";
 
 const EnterNumbers = ({ setTree }) => {
-  const [numbers, setNumbers] = useState('');
+  const [numbers, setNumbers] = useState("");
   const navigate = useNavigate();
 
   const handleSubmit = async () => {
     try {
       const formData = new URLSearchParams();
-      formData.append('numbers', numbers);
+      formData.append("numbers", numbers);
 
-      const response = await axiosInstance.post('/process-numbers', formData, {
+      const response = await axiosInstance.post("/process-numbers", formData, {
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
+          "Content-Type": "application/x-www-form-urlencoded",
         },
       });
 
       setTree(response.data);
-      navigate('/tree-view');
+      navigate("/tree-view");
     } catch (error) {
-      console.error('Error processing numbers:', error);
+      console.error("Error processing numbers:", error);
     }
   };
 
@@ -30,7 +30,7 @@ const EnterNumbers = ({ setTree }) => {
     <div>
       <h2>Enter Numbers</h2>
       <NavBar />
-      <p>Enter a series of numbers (separate each by commas).</p>
+      <p>Please enter a series of numbers (separate them by commas).</p>
       <input
         type="text"
         value={numbers}
